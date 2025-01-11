@@ -10,8 +10,9 @@ document.getElementById("MySubmit1").onclick=function(){
     Radius=Number(Radius)
     
  volume=pi*(Radius)**2*(Height)
+ z=Math.round(volume)
  console.log(volume)
-document.getElementById("vol").textContent=volume + "cm^3"
+document.getElementById("vol").textContent= z + "cm^3"
  console.log(typeof volume)
 }
 
