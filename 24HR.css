@@ -1,0 +1,30 @@
+#vol{
+    border: 1px solid black;
+    height: 19px;
+    width: 170px;
+    border-radius: 2px;
+    align-items:stretch;
+    background-color: aliceblue;
+}
+.A1{
+    display: ruby;
+}
+.A1,h1{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    /*height: 100vh;  Full viewport height */
+    margin: 0; /* Remove default body margin */
+}
+
+.A1 {
+    margin: auto;
+    text-align: center; /* Optional for text alignment */
+}
+
+.A1 {
+    background-color: lightblue;
+    padding: 20px;
+    border-radius: 5px; /* Styling for the box */
+}
+
